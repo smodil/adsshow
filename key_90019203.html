@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1C1C1C">
+<link rel="icon" href="logo.jpg">
+  <title>Ads Show</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Project -->
+  
+  <div class="nav">
+    Ads Show - Step 3
+  </div>
+  <br><br><br>
+  
+ <center>
+   
+   <div id="timer">
+     Wait for 5 seconds...
+   </div>
+   
+   <br>
+   <br>
+   <br>
+   <br>
+   
+   
+   <div id="cont">
+     
+     
+   </div>
+ </center>
+  
+  <script>
+    setTimeout(function() {
+      document.getElementById("timer").innerHTML = "Wait for 4 seconds...";
+    }, 1000)
+    
+    
+    
+    
+    setTimeout(function() {
+      document.getElementById("timer").innerHTML = "Wait for 3 seconds...";
+    }, 2000)
+    
+    
+    
+    setTimeout(function() {
+      document.getElementById("timer").innerHTML = "Wait for 2 seconds...";
+    }, 3000)
+    
+    
+    
+    setTimeout(function() {
+      document.getElementById("timer").innerHTML = "Wait for 1 seconds...";
+    }, 4000)
+    
+    
+    
+    setTimeout(function() {
+      document.getElementById("timer").innerHTML = "Scroll down and press continue";
+    
+      document.getElementById("cont").innerHTML = '<button onclick="cont()">Continue</button>';
+    }, 5000)
+    
+    
+    function cont() {
+    
+    
+      document.getElementById("cont").innerHTML = '<a id="th" href="key_90019213.html">Processing</a>';
+    
+      document.getElementById("th").click();
+    
+    
+    }
+  </script>
+</body>
+</html>
