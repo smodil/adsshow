@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    font-family: Arial;
+}
+.nav{
+  background-color: #1C1C1C;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+.plans{
+  border: 1px solid black;
+  box-shadow: 0px 0px 7px black;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  user-select: none;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: 1;
+}
+.plans:hover{
+  transform: scale(1.1);
+}
+.flex{
+  display: flex;
+}
+img{
+  width: 70px;
+}
+
+button{
+  background: #1C1C1C;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  height: 50px;
+  width: 150px;
+  transform: scale(2);
+  border: 5px solid #1C1C1C;
+  transition-property: background, border;
+  transition-duration: 0.5s;
+  transition-timing-function: 1;
+}
+button:hover{
+  background-color: dimgray;
+  color: white;
+  border-color: dimgray;
+}
+button:active{
+  background: deepskyblue;
+  border-color: deepskyblue;
+}
+
+.border{
+  margin: 10%;
+  padding: 10%;
+  border: 1px solid black;
+  box-shadow: 0px 0px 7px black;
+  
+}
+
+input{
+  border: 1px solid #1C1C1C;
+  box-shadow: 0px 0px 7px black;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+  transition-duration: 1s;
+  transition-property: border;
+  transition-timing-function: 1;
+}
+input:hover{
+  border: 5px solid dodgerblue;
+ 
+}
+
+#error{
+  color: red;
+  font-weight: bold;
+}
